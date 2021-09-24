@@ -16,10 +16,10 @@
   .typewriter {
   font-family: 'Share Tech Mono', monospace;
   font-size: 22px;
-  color: #61f668;
+  color: #dd6313;
   
    
-  border-right: solid rgb(67, 255, 83); /* The typwriter cursor */
+  border-right: solid #e9b408; /* The typwriter cursor */
   border-width: 3px;
   
 
@@ -37,7 +37,7 @@
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: rgb(117, 255, 75) }
+    50% { border-color: #e9b408 }
   }
   
   

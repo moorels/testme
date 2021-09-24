@@ -49,11 +49,8 @@ useEffect(()=> {
 
     return (
         <div>
-        
          <div className={styles.typewriter}>{name}</div>   
           <p/>
-                 
-       
         </div>
     )
 }
