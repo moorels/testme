@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+
+
+.hidden {
+    display: none;
+    visibility: hidden;
+  }
+  .typewriter1 {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 22px;
+    color: #ffffff;
+  /* ----- blinking cursor animation ----- */
+  }
+  .typewriter {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 22px;
+  color: #61f668;
+  
+   
+  border-right: solid rgb(67, 255, 83); /* The typwriter cursor */
+  border-width: 3px;
+  
+
+  
+    
+    animation:
+    
+      blink-caret .5s step-end infinite;
+      /* era 10s; */
+  }
+  
+  /* The typing effect */
+
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(117, 255, 75) }
+  }
+  
+  
